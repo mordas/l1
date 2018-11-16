@@ -17,3 +17,4 @@ let appData = {
     savings: false
 }
 alert("Ваш бюджет на сегодня: " + money/30);
+alert("test")
