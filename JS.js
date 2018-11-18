@@ -7,14 +7,13 @@ let d = prompt('Во сколько обойдется?');
 let appData = {
     budjet: money,
     date: time,
-    expenses: {a: b,
-        c:d
-    },
+    expenses: {},
     optionalExpenses: {
 
     },
     income: [],
     savings: false
 }
+appData.expenses.a = b;
+appData.expenses.c = d;
 alert("Ваш бюджет на сегодня: " + money/30);
-alert("test")
